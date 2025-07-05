@@ -1,8 +1,28 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Voice Reminder App
 
-# Getting Started
+A React Native mobile application for managing voice reminders with SQLite backend storage and push notifications.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
+
+- 🔔 **Smart Notifications**: Schedule reminders with local push notifications
+- 📱 **Cross-platform**: Built with React Native for iOS and Android
+- 🎵 **Voice Recording**: Record and attach audio files to reminders
+- 📅 **Flexible Scheduling**: Daily, weekly, or custom date reminders
+- 🔄 **Repeat Options**: Configure recurring reminders with custom patterns
+- 😴 **Snooze Function**: Customizable snooze intervals and counts
+- 🖼️ **Visual Reminders**: Attach images to your reminders
+- 🔍 **Search & Filter**: Find reminders quickly with search functionality
+- 💾 **Local Storage**: SQLite database for offline functionality
+- 🌍 **Timezone Support**: Automatic timezone handling (Asia/Karachi)
+
+## Tech Stack
+
+- **Framework**: React Native
+- **Database**: SQLite (react-native-sqlite-storage)
+- **Notifications**: react-native-push-notification
+- **Time Handling**: moment-timezone
+- **Storage**: Local file system for audio/image files
+
 
 ## Step 1: Start the Metro Server
 
